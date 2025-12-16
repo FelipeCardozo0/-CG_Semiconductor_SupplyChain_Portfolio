@@ -1,0 +1,9 @@
+,0
+universe,"['TSM', 'UMC', 'ASML', 'AMAT', 'LRCX', 'KLAC', 'TER', 'NVDA', 'AMD', 'QCOM', 'AVGO', 'MRVL', 'INTC', 'MU', 'TXN', 'ADI', 'NXPI', 'ON', 'MCHP']"
+descriptions,"{'TSM': 'Taiwan Semiconductor Manufacturing (Foundry)', 'UMC': 'United Microelectronics Corp (Foundry)', 'ASML': 'ASML Holding (Equipment)', 'AMAT': 'Applied Materials (Equipment)', 'LRCX': 'Lam Research (Equipment)', 'KLAC': 'KLA Corporation (Equipment)', 'TER': 'Teradyne (Equipment)', 'NVDA': 'NVIDIA Corporation (Fabless)', 'AMD': 'Advanced Micro Devices (Fabless)', 'QCOM': 'Qualcomm (Fabless)', 'AVGO': 'Broadcom Inc (Fabless)', 'MRVL': 'Marvell Technology (Fabless)', 'INTC': 'Intel Corporation (IDM)', 'MU': 'Micron Technology (Memory)', 'TXN': 'Texas Instruments (Analog)', 'ADI': 'Analog Devices (Analog)', 'NXPI': 'NXP Semiconductors (Automotive)', 'ON': 'ON Semiconductor (Power)', 'MCHP': 'Microchip Technology (MCU)'}"
+start_date,2018-01-01
+end_date,2024-12-31
+n_assets,19
+n_observations,1759
+ridge_lambda,1e-06
+data_prepared,2025-12-16T03:27:01.450195

@@ -1,0 +1,16 @@
+,0
+train_start,2018-01-01
+train_end,2022-12-31
+test_start,2023-01-01
+test_end,2024-12-31
+train_observations,1258
+test_observations,501
+n_assets,19
+estimation_window,2Y
+window_size_days,504
+rebalancing_frequency,monthly
+rebalancing_interval_days,21
+n_rebalancing_dates,24
+ridge_lambda,1e-06
+tickers,"['ADI', 'AMAT', 'AMD', 'ASML', 'AVGO', 'INTC', 'KLAC', 'LRCX', 'MCHP', 'MRVL', 'MU', 'NVDA', 'NXPI', 'ON', 'QCOM', 'TER', 'TSM', 'TXN', 'UMC']"
+data_prepared,2025-12-16T03:36:36.203207

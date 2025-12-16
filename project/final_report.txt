@@ -1,0 +1,43 @@
+====================================================================================================
+FINAL PROJECT REPORT
+Conjugate Gradient Methods for Mean-Variance Portfolio Optimization
+====================================================================================================
+
+====================================================================================================
+SECTION 1: DATA PROPERTIES
+====================================================================================================
+
+Sample: 1759 days, 19 assets
+Train: 1258 days | Test: 501 days
+Rebalancing: 24 dates (monthly, 2Y rolling window)
+
+Covariance Conditioning: κ = 158.87
+
+====================================================================================================
+SECTION 2: SOLVER BEHAVIOR
+====================================================================================================
+
+Iterations (mean): GD=529, CG=12, PCG_J=19, PCG_S=19, PCG_IC=1
+
+A-norm Error: GD=8e-05, CG=2e-04, PCG_J=5e-08, PCG_S=2e-13, PCG_IC=3e-16
+
+====================================================================================================
+SECTION 3: BACKTEST RESULTS
+====================================================================================================
+GD          : Cum=117.27%, Sharpe=1.212
+CG          : Cum=117.28%, Sharpe=1.212
+PCG_Jacobi  : Cum=117.24%, Sharpe=1.212
+PCG_SSOR    : Cum=117.24%, Sharpe=1.212
+PCG_IChol   : Cum=117.24%, Sharpe=1.212
+SPY         : Cum= 60.65%, Sharpe=1.869
+
+====================================================================================================
+CONCLUSIONS
+====================================================================================================
+
+• All solvers yield ECONOMICALLY EQUIVALENT portfolios
+• Return spread < 0.04%, Sharpe spread < 0.001
+• CG provides 44x speedup over Gradient Descent
+• PCG (IChol) achieves machine precision in 1 iteration
+• Solver choice is computational, not economic
+
